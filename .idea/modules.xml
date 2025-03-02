@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Module2/Item.iml" filepath="$PROJECT_DIR$/Module2/Item.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KIRA.iml" filepath="$PROJECT_DIR$/KIRA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module1/Userdata.iml" filepath="$PROJECT_DIR$/Module1/Userdata.iml" />
+    </modules>
+  </component>
+</project>

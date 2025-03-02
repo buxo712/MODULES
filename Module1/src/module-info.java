@@ -1,0 +1,3 @@
+module Userdata {
+    exports Userdata;
+}
