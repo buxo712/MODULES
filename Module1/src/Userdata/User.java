@@ -2,12 +2,12 @@ package Userdata;
 // create class
 public class User {
     // instance variable
-        String name;
-         int age;
+    String name;
+    int age;
     // create constructor
-        public User(String name, int age) {
-            this.name = name;
-            this.age = age;
+    public User(String name, int age) {
+        this.name = name;
+        this.age = age;
         }
 // create getname method
         public String getName() {
