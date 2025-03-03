@@ -14,23 +14,9 @@ public class Report {
         this.user = user; // Associate the user with the report
     }
 
-    // Get report name method
-    public String getReportName() {
-        return reportName;
-    }
+  
 
-    // Get description method
-    public String getDescription() {
-        return description;
-    }
-
-    // Get year method
-    public int getYear() {
-        return year;
-    }
-
-    // Printing method
-    public void report() {
+    {
         System.out.println("--------User  Report---------");
         System.out.println("Report name: " + reportName
                 + "\nDescription: " + description
