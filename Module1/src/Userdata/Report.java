@@ -14,7 +14,6 @@ public class Report {
         this.user = user; // Associate the user with the report
     }
 
-  
 
     {
         System.out.println("--------User  Report---------");
@@ -22,5 +21,13 @@ public class Report {
                 + "\nDescription: " + description
                 + "\nYear: " + year
                 + "\nUser:  " + (user != null ? user.getName() : "No user associated"));
+    }
+
+
+    public void report() {
+    }
+
+    public String getReportName() {
+
     }
 }

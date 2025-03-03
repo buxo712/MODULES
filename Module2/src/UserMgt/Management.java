@@ -6,17 +6,7 @@ import Userdata.User;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Management {
-    // List to hold users
-    private List<User> users;
-    // List to hold reports
-    private List<Report> reports;
 
-    // Constructor
-    public Management() {
-        users = new ArrayList<>();
-        reports = new ArrayList<>();
-    }
 
     // Method to add a user
     public void addUser (String name, int age) {
