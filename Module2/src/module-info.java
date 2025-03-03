@@ -1,3 +1,4 @@
 module Itemmanagement.Item {
-    exports Itemmanagement;
+    exports UserMgt;
+    requires Userdata;
 }

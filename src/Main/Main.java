@@ -1,20 +1,25 @@
 package Main;
 
-import Itemmanagement.Item;
-import Userdata.User;
+import UserMgt.Management;
+
 public class Main {
     public static void main(String[] args) {
-        // Create an instance of the user class
-        User user = new User("bwenge", 32);
-        // create the second instance of the use class
-        User user1 = new User("rakuten",19);
-        // Create an instance of the Item class
-        Item item= new Item("iphone13",1200,2024);
+        // Create an instance of the UserReportManager
+        Management manager = new Management();
+        Management manager2 = new Management();
 
-        //calling all method
-        user.user();
-        user1.user();
-        item.item();
+        // Adding users through the manager
+        manager.addUser ("bwenge", 32);
+        manager.addUser ("buxo", 19);
 
+        // Adding reports through the manager, associating them with users
+       manager.addReport("Buying a phone", "Latest model of iPhone", 2024, "Bwenge");
+       manager.addReport("Selling a laptop", "Latest model Hp Laptop", 2024, "Buxo");
+
+        // Displaying all users
+        manager.displayUsers();
+
+        // Displaying all reports
+        manager.displayReports();
     }
 }
