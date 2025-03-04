@@ -29,7 +29,8 @@ public class Management {
     public void addReport(String reportName, String description, int year, String userName) {
         User associatedUser  = null;
         // Find the user by name
-        
+        for (User  user : users) {
+            if (user.getName().equalsIgnoreCase(userName)) {
                 associatedUser  = user;
                 break;
             }
