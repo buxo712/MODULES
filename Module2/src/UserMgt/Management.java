@@ -6,7 +6,17 @@ import Userdata.User;
 import java.util.ArrayList;
 import java.util.List;
 
+public class Management {
+    // List to hold users
+    private List<User> users;
+    // List to hold reports
+    private List<Report> reports;
 
+    // Constructor
+    public Management() {
+        users = new ArrayList<>();
+        reports = new ArrayList<>();
+    }
 
     // Method to add a user
     public void addUser (String name, int age) {
@@ -19,8 +29,7 @@ import java.util.List;
     public void addReport(String reportName, String description, int year, String userName) {
         User associatedUser  = null;
         // Find the user by name
-        for (User  user : users) {
-            if (user.getName().equalsIgnoreCase(userName)) {
+        
                 associatedUser  = user;
                 break;
             }

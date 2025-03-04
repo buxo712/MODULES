@@ -14,8 +14,24 @@ public class Report {
         this.user = user; // Associate the user with the report
     }
 
+    public String getReportName() {
+        return reportName;
+    }
 
-    {
+    public String getDescription() {
+        return description;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void report(){
+
         System.out.println("--------User  Report---------");
         System.out.println("Report name: " + reportName
                 + "\nDescription: " + description
@@ -24,10 +40,5 @@ public class Report {
     }
 
 
-    public void report() {
-    }
 
-    public String getReportName() {
-
-    }
 }
